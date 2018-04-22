@@ -1,0 +1,24 @@
+version: "3"
+services:
+
+  main-db:
+    build: ./db
+    image: react-login/postgres
+    hostname: main-db
+    volumes:
+      - /data/postgresql:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  main-api:
+    build: ./main
+    image: react-login/main
+    hostname: main-api
+    volumes:
+      - /var/log:/var/log
+      - /home/ryanzeng/projects/react-login/docker/main/src:/opt/src
+    ports:
+      - "8000:8000"
+      - "8022:22"
+    depends_on:
+      - main-db
