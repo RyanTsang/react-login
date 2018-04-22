@@ -6,7 +6,7 @@ docker/main/src/backend/.idea/**/workspace.xml
 docker/main/src/backend/.idea/**/tasks.xml
 docker/main/src/backend/.idea/**/dictionaries
 docker/main/src/backend/.idea/**/shelf
-docker/main/src/backend/
+
 # Sensitive or high-churn files
 docker/main/src/backend/.idea/**/dataSources/
 docker/main/src/backend/.idea/**/dataSources.ids
@@ -14,39 +14,39 @@ docker/main/src/backend/.idea/**/dataSources.local.xml
 docker/main/src/backend/.idea/**/sqlDataSources.xml
 docker/main/src/backend/.idea/**/dynamic.xml
 docker/main/src/backend/.idea/**/uiDesigner.xml
-docker/main/src/backend/
+
 # Gradle
 docker/main/src/backend/.idea/**/gradle.xml
 docker/main/src/backend/.idea/**/libraries
-docker/main/src/backend/
+
 # CMake
 docker/main/src/backend/cmake-build-debug/
 docker/main/src/backend/cmake-build-release/
-docker/main/src/backend/
+
 # Mongo Explorer plugin
 docker/main/src/backend/.idea/**/mongoSettings.xml
-docker/main/src/backend/
+
 # File-based project format
 docker/main/src/backend/*.iws
-docker/main/src/backend/
+
 # IntelliJ
 docker/main/src/backend/out/
-docker/main/src/backend/
+
 # mpeltonen/sbt-idea plugin
 docker/main/src/backend/.idea_modules/
-docker/main/src/backend/
+
 # JIRA plugin
 docker/main/src/backend/atlassian-ide-plugin.xml
-docker/main/src/backend/
+
 # Cursive Clojure plugin
 docker/main/src/backend/.idea/replstate.xml
-docker/main/src/backend/
+
 # Crashlytics plugin (for Android Studio and IntelliJ)
 docker/main/src/backend/com_crashlytics_export_strings.xml
 docker/main/src/backend/crashlytics.properties
 docker/main/src/backend/crashlytics-build.properties
 docker/main/src/backend/fabric.properties
-docker/main/src/backend/
+
 # Editor-based Rest Client
 docker/main/src/backend/.idea/httpRequests
 
@@ -55,3 +55,4 @@ docker/main/src/backend/.idea/httpRequests
 *.so
 *.egg
 *.egg-info
+docker/main/src/backend/.idea/*

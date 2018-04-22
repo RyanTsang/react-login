@@ -1,5 +1,5 @@
 # react-login
 ### Keywords:
-* Django rest framework
+* Django Rest Framework
 * React
 * Docker
